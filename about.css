@@ -87,7 +87,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-image: url("./image/header.png");
+    background-image: url("image/header.png");
     gap: 2rem;
     align-items: center;
     justify-content: center;
@@ -181,7 +181,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        background-image: url("./image/header.png");
+        background-image: url("image/header.png");
         gap: 3rem;
         align-items: center;
         text-align: center;
@@ -206,7 +206,7 @@
                 gap: 2rem;
                 display: flex;
                 flex-direction: column;
-                background-image: url("./image/font.jpg");
+                background-image: url("image/font.jpg");
                 justify-content: center;
                 align-items: center;
                 color: white;
@@ -227,7 +227,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-image: url("./image/header.png");
+    background-image: url("image/header.png");
 
 
     .noir{
@@ -277,7 +277,7 @@
             .im{
                 width: 10rem;
                 height: 6rem;
-                background-image: url("./image/hackathon.png");
+                background-image: url("image/hackathon.png");
                 background-size: cover;
                 background-size: 100% 100%;
                 margin: auto;
