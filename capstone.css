@@ -1,0 +1,467 @@
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.cdnfonts.com/css/Lato");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "lato";
+    font-size: 1rem;
+}
+
+
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    
+
+    .nav1{
+        width: 100%;
+        max-height: 3rem;
+        background-color: #272a31;
+        display: flex;
+        gap: 4rem;
+        justify-content: end;
+        padding: .5rem;
+        
+
+        .navig{
+            width: 50%;
+            text-decoration: none;
+            color: #e9e9e9;
+            font-size: 20px;
+            position: center;
+            
+
+
+        }
+    }
+
+    .nav2{
+        width: 100%;
+        height: 4rem;
+        background-color: #ffff;
+        display: flex;
+        
+
+
+        .log{
+            width: 30%;
+            height: 4rem;
+            display: flex;
+            
+            img{
+                width: 5rem;
+                height: 2rem;
+                position: center;
+                align-items: center;
+                margin-left: 7rem;
+                margin-top: 1rem;
+            }
+        }
+
+        .boutons{
+            width: 70%;
+            height: 3rem;
+            display: flex;
+            gap: 3rem;
+            justify-content: end;
+            margin-right:2rem;
+            align-items: center;
+           
+
+            a{
+                width: 6rem;
+                text-decoration: none;
+                font-size: 20px;
+                position: center;
+                color: #272a31;
+
+            }
+        }
+    }
+}
+
+.partie1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url("/image/header.png");
+    gap: 2rem;
+    
+    
+
+    .h1{
+        width: 60%;
+        color: #ec5242;
+        font-size: 50px;
+        font-weight: 700;
+        font-family: 'lato', sans-serif;
+        margin-top: 10rem;
+        margin-left: 10rem;
+        justify-content: space-around;
+    }
+
+    .h2{
+        width: 55%;
+        font-size: 50px;
+        font-weight: bold;
+        background: url("/image/font.jpg") no-repeat center center;
+        background-size: cover;
+        -webkit-background-clip: text;
+        background-clip: text;
+        font-family: 'cocogoose', sans-serif;
+        line-height: 50px;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+        margin-left: 10rem;
+    }
+
+    .p{
+        width: 60%;
+        padding: 2rem;
+        border: solid 3px white;
+        font-size: 20px;
+        margin-left: 10rem;
+        font-family: 'lato', sans-serif;
+
+    }
+
+    .day{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 2rem;
+        margin-left: 10rem;
+
+        h3{
+            font-size: 25px;
+            font-family: 'cocogoose', sans-serif;
+            
+            p{
+                font-family: 'lato', sans-serif;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+.partie2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url("/image/main-program-bg.png");
+    background-color: #272a30;
+    justify-content: space-around;
+    gap: 4rem;
+    
+    
+    .tete{
+        width: 100%;
+        justify-content: center; 
+        margin-top: 3rem; 
+
+        h1{
+            color: aliceblue;
+            font-size: 30px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+          
+    }
+
+    .tronc{
+        width: 100%;
+        display: flex;
+        gap: .3rem;
+        justify-content: center;
+
+    
+        .lecture{
+            width: 15%;
+            display: flex;
+            justify-content: space-between;
+            gap: 1rem;
+            justify-content: space-around;
+            margin-bottom: 1rem;
+            font-family: 'lato', sans-serif;
+            flex-direction: column;
+            background-color: rgba(128, 128, 128, 0.5); 
+
+            .svg{
+                width: 40%;
+                height: 5rem;
+                background-image: url("/image/guest.jpg");
+                background-size: cover;
+                justify-content: center;
+                align-items: center;
+                margin: 1rem auto;
+                background-position: center;
+                
+            }
+
+            .svg1{
+                width: 4rem;
+                min-width: 4rem;
+                max-width: 4rem;
+                aspect-ratio: 1;
+                background-image: url("/image/open.png");
+                background-size: cover;
+                justify-content: center;
+                align-items: center;
+                margin: 1rem auto;
+                background-position: center;   
+            }
+
+            .svg2{
+                width: 4rem;
+                min-width: 4rem;
+                max-width: 4rem;
+                aspect-ratio: 1;
+                background-image: url("/image/code.png");
+                background-size: cover;
+                justify-content: center;
+                align-items: center;
+                margin: 1rem auto; 
+                background-position: center;  
+            }
+
+            .svg3{
+                width: 4rem;
+                min-width: 4rem;
+                max-width: 4rem;
+                aspect-ratio: 1;
+                background-image: url("/image/network.png");
+                background-size: cover;
+                justify-content: center;
+                align-items: center;
+                margin: 1rem auto;
+                background-position: center;   
+            }
+
+            h1{
+                width: 80%;
+                color: #ec5242;
+                font-size: 30px;
+                text-align: center;
+                font-family: 'lato', sans-serif;
+            }
+
+            p{
+                color: #e9e9e9;
+                font-size: 20px;
+                text-align: center;
+            
+            }
+        }
+    
+      
+    }
+
+    .fin{
+        width: 100%;
+        height: 4rem;
+
+        a{
+            text-decoration: none;
+            color: #ffff;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+    
+    }
+
+    
+
+}
+
+.partie3{
+    width: 100%;
+    background-color: #e9e9e9;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    
+
+    .speakers{
+        width: 100%;
+        padding: 2rem;
+    
+
+        h1{
+            color: black;
+                font-size: 30px;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                
+        }
+
+    }
+
+    .descript{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        gap: 2rem;
+    }
+
+    .bas{
+        width: 100%;
+        padding: 3rem;
+        justify-content: center;
+        align-items: center;
+
+        button{
+            width: 5rem;
+            padding: 1rem;
+            border: #ec5242 solid;
+            border-radius: .5rem;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            
+        }
+        
+    }
+
+    .desc{
+        width: 100%;
+        height: 12rem;
+        display: flex;
+        gap: 1rem;
+        justify-content: space-between;
+    
+
+        .carte{
+            width: 50%;
+            display: flex;
+            gap: 1rem;
+            justify-content: space-between;
+            
+            
+            .img{
+                width: 10%;
+                background-image: url("/image/chess-bg.png");
+                background-size: cover;
+                height: 4rem;
+
+                .photo{
+                    width: 95%;
+                    height: 3.5rem;
+                    margin-left: .5rem;
+                    margin-top: .5rem;
+                    background-image: url("/image/Lavanya.jpg");
+                    background-size: cover;
+                }
+
+                .photo1{
+                    width: 95%;
+                    height: 3.5rem;
+                    margin-left: .5rem;
+                    margin-top: .5rem;
+                    background-image: url("/image/Tina.jpeg");
+                    background-size: cover;
+                }
+            }
+
+            .parole{
+                width: 80%;
+                gap: .5rem;
+                display: flex;
+                flex-direction: column;
+                font-weight: 600;
+                
+
+                hr{
+                    width: 10%;
+                }
+
+                h5{
+                    color: #ec5242;
+                }
+
+                p{
+                    font-size: 15px;
+                    font-family: 'lato', sans-serif;
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+
+}
+
+.partie4{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url("/image/header.png");
+
+
+    .noir{
+        width: 100%;
+        padding: 3rem 0;
+        background-color: #272a31;
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;             
+
+        h2{
+            color: #e9e9e9;
+            font-size: 30px;
+            text-align: center;
+            
+        }
+
+        .imges{
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+            gap: 1rem;
+            margin: auto;
+            div{
+                width: 10rem;
+                img{
+                    min-width: 100%;
+                    max-width: 100%;
+                }
+            }
+           
+        }
+        
+    }
+
+    .blanc{
+        width: 100%;
+        display: flex;
+        background-color: #e9e9e9;
+
+        .logo{
+            width: 50%;
+            margin-top: 4rem;
+            
+            .im{
+                width: 10rem;
+                height: 6rem;
+                background-image: url("/image/hackathon.png");
+                background-size: cover;
+                background-size: 100% 100%;
+                margin: auto;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .link{
+            width: 50%;
+            margin-top: 5rem;
+        }
+    }
+}
