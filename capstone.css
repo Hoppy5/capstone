@@ -185,14 +185,15 @@
             justify-content: space-between;
             gap: 1rem;
             justify-content: space-around;
+            text-align: center;
             margin-bottom: 1rem;
             font-family: 'lato', sans-serif;
             flex-direction: column;
             background-color: rgba(128, 128, 128, 0.5); 
 
             .svg{
-                width: 40%;
-                height: 5rem;
+                width: 35%;
+                height: 4rem;
                 background-image: url("/image/guest.jpg");
                 background-size: cover;
                 justify-content: center;
@@ -216,7 +217,7 @@
             }
 
             .svg2{
-                width: 4rem;
+               
                 min-width: 4rem;
                 max-width: 4rem;
                 aspect-ratio: 1;
@@ -244,17 +245,24 @@
             h1{
                 width: 80%;
                 color: #ec5242;
+                display: flex;
                 font-size: 30px;
                 text-align: center;
                 font-family: 'lato', sans-serif;
+                position: center;
             }
 
             p{
                 color: #e9e9e9;
                 font-size: 20px;
+                display: flex;
                 text-align: center;
+                justify-content: ;
+                margin-bottom: 1rem;
             
             }
+
+            
         }
     
       
@@ -263,18 +271,23 @@
     .fin{
         width: 100%;
         height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        margin-bottom: 3rem;
+
 
         a{
-            text-decoration: none;
+           
             color: #ffff;
             text-align: center;
             align-items: center;
             justify-content: center;
+
         }
     
-    }
-
-    
+    }   
 
 }
 
@@ -317,9 +330,10 @@
         padding: 3rem;
         justify-content: center;
         align-items: center;
+        display: flex;
 
         button{
-            width: 5rem;
+            width: 15rem;
             padding: 1rem;
             border: #ec5242 solid;
             border-radius: .5rem;
@@ -446,6 +460,7 @@
         .logo{
             width: 50%;
             margin-top: 4rem;
+            margin-bottom: 4rem;
             
             .im{
                 width: 10rem;
